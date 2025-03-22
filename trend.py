@@ -26,7 +26,7 @@ def fetch_reddit_trends(keyword):
 
 
 def fetch_trends(keyword):
-    api_key = "pub_75805d951c8d81856a3b82e2c39d285414d8b"  # Replace with your actual key
+    api_key = "news-trend API required here.........." # insert your newsdata.io API key here for showing the result 
     url = f"https://newsdata.io/api/1/news?apikey={api_key}&q={keyword}&language=en"
 
     response = requests.get(url)
